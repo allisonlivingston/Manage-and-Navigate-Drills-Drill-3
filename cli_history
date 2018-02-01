@@ -1,0 +1,12 @@
+  450  cd cli_drill_3
+  451  touch install.sh
+  452  mkdir app
+  453  cd app
+  454  mkdir bin
+  455  mv ../install.sh ./bin
+  456  cp bin/install.sh install.sh.backup
+  457  rm install.sh.backup bin/install.sh
+  458  rm -rf bin
+  459  ls
+  460  cd ..
+  461  rm -rf app
